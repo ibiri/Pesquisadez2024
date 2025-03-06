@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Carregar os dados
-dados = r"C:\Users\casem\OneDrive\Curso Python - ASIMOV\Projeto Pesquisa\Banco Amazonas dezembro 2024.xlsx"
+dados = "https://github.com/ibiri/Pesquisadez2024/raw/main/Banco%20Amazonas%20dezembro%202024.xlsx"
 data = pd.read_excel(dados)
 
 # Criar painel lateral para seleção de município
