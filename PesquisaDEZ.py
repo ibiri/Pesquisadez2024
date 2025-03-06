@@ -4,7 +4,7 @@ import sys
 
 # Carregar os dados
 dados = "https://github.com/ibiri/Pesquisadez2024/raw/main/Banco%20Amazonas%20dezembro%202024.xlsx"
-data = pd.read_excel(dados)
+data = pd.read_excel(dados, engine="openpyxl)
 
 # Criar painel lateral para seleção de município
 st.sidebar.title("Filtros")
