@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import sys
 
 # Carregar os dados
 dados = "https://github.com/ibiri/Pesquisadez2024/raw/main/Banco%20Amazonas%20dezembro%202024.xlsx"
